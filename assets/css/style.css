@@ -134,7 +134,7 @@ body{
         text-align: center;
     }
     .intro p{
-        /*paragraph centered*/
+        text-align: center;
         margin: 0 auto;
     }
     /*What-you-do style*/
@@ -157,7 +157,7 @@ body{
         border-color: #39a6b2;
     } 
     .step { 
-        margin: 50px;
+        margin: 50px auto;
         padding-bottom: 50px;
         width: 80%;
         border-bottom: 1px solid #39a6b2;
@@ -166,7 +166,7 @@ body{
         align-items: center;
         justify-content: space-between;
     }    
-    .steps h3 {
+    .step h3 {
         color: #024e76;
         font-size: 46px;
         flex: 1 30%; 
