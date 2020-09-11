@@ -293,6 +293,16 @@ body{
         font-size: 16px;
     }
     /*reach out style end*/
+    .service-grid-container {
+        display: grid;
+    }
+    .service-grid-item {
+        width: 200px;
+        height: 50px;
+        background-color: orange;
+        border: solid;
+        color: black;
+    }
 /*media query for smaller destop screens and smaller */
 @media screen and (max-width:980px) {
     header {
@@ -388,5 +398,5 @@ body{
       }
       .contact-form {
           order: 3;
-      }
+      }      
 }
