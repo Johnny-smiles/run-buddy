@@ -312,11 +312,11 @@ body{
         background: linear-gradient(rgba(252, 225, 56, 0.3), var(--secondary-color) );
         position: absolute;
         top: 0;
-        left: 0;
+        left: 0;      
         opacity: 0;
-        transition: .5s;              
+                      
     } 
-    .trainer:hover .trainer-img {
+    .trainer:hover .trainer-img::after {
         opacity: 1;
     }  
     .trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
